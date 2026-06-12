@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    
+    
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), 
+                      url('color1.jpg');
+    
+    background-size: cover;       
+    background-position: center;  
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+}
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #896A46;
+    color: #7C3B1A;
+}
+
+
+header {
+    height: 300px;
+    background-image: url('mmm.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 3px 3px 5px #000;
+}
+
+
+nav {
+    background-image: url('marron.jpg'); 
+    padding: 15px;
+    border-bottom: 5px solid #8e44ad;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+.modelo-caja {
+    display: flex;
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+    gap: 20px;
+}
+
+
+section {
+    flex: 3;
+    padding: 25px;
+    background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), 
+                      url('trio.jpg');
+    background-size: cover;
+    border: 2px solid #a04000;
+    border-radius: 10px;
+}
+
+
+aside {
+    flex: 1;
+    padding: 15px;
+    background-image: url('tarima.jpg'); /* Reemplazar con tu ruta */
+    background-size: cover;
+    color: #C29B61;
+    text-shadow: 1px 1px 2px #000;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+    background-image: url('madera.jpg'); 
+    color: #f1c40f;
+    font-size: 0.9rem;
+}
+
+/* Estilo para Tablas */
+.tabla-huasteca {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.tabla-huasteca th {
+    background-color: #a04000;
+    color: white;
+    padding: 10px;
+}
+
+.tabla-huasteca td {
+    border: 1px solid #a04000;
+    padding: 8px;
+    background-color: rgba(255,255,255,0.6);
+}
